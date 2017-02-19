@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.clomeli.genecademy.MainActivity">
+
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Skin Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/skinspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+        <TextView
+            android:text="Freckles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/frecklesspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Hair Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/hairspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+        <TextView
+            android:text="Hair Type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/hairtypespinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Eye Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/eyespinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+        \
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:onClick="button_clicked"
+            android:layout_gravity="center"
+            android:text="See Genes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button2"
+            android:onClick="button_clicked2"
+            android:layout_gravity="center"
+            android:text="Search A Gene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-50sp">
+
+        <ImageView
+            android:id="@+id/whiteSkin"
+            android:src="@drawable/gender_female_face_1_european"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/lightBrownSkin"
+            android:src="@drawable/gender_female_face_1_indian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/brownSkin"
+            android:src="@drawable/gender_female_face_1_african"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/blackHair"
+            android:src="@drawable/gender_female_hair_3_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/brownHair"
+            android:src="@drawable/gender_female_hair_3_634f39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/blondeHair"
+            android:src="@drawable/gender_female_hair_3_897653"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/redHair"
+            android:src="@drawable/gender_female_hair_3_d8591a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/curlyblackHair"
+            android:src="@drawable/gender_female_hair_5_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/curlybrownHair"
+            android:src="@drawable/gender_female_hair_5_634f39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/curlyblondeHair"
+            android:src="@drawable/gender_female_hair_5_897653"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/curlyredHair"
+            android:src="@drawable/gender_female_hair_5_d8591a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gender_female_mouth_2"/>
+
+        <ImageView
+            android:id="@+id/whiteNose"
+            android:src="@drawable/gender_female_nose_4_european"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/lightBrownNose"
+            android:src="@drawable/gender_female_nose_4_indian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/brownNose"
+            android:src="@drawable/gender_female_nose_4_african"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/whiteFreckledNose"
+            android:src="@drawable/gender_female_nose_5_european"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/lightFreckledBrownNose"
+            android:src="@drawable/gender_female_nose_5_indian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/brownFreckledNose"
+            android:src="@drawable/gender_female_nose_5_african"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/blackeyes"
+            android:src="@drawable/gender_female_eyes_4_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/blueeyes"
+            android:src="@drawable/gender_female_eyes_4_4d89cf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/grayeyes"
+            android:src="@drawable/gender_female_eyes_4_9c9c9d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/greeneyes"
+            android:src="@drawable/gender_female_eyes_4_759c7f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/browneyes"
+            android:src="@drawable/gender_female_eyes_4_797454"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:src="@drawable/gender_female_eyebrows_alena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/gender_female_clothes_1_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>
+
+</ScrollView>
+

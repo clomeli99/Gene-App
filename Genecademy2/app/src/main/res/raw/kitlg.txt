@@ -1,0 +1,11 @@
+12
+This gene encodes the ligand of the tyrosine-kinase receptor encoded by the KIT locus. This ligand is a pleiotropic factor that acts in utero in germ cell and neural cell development, and hematopoiesis, all believed to reflect a role in cell migration. In adults, it functions pleiotropically, while mostly noted for its continued requirement in hematopoiesis. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jul 2008]
+From UniProt:
+Ligand for the receptor-type protein-tyrosine kinase KIT. Plays an essential role in the regulation of cell survival and proliferation, hematopoiesis, stem cell maintenance, gametogenesis, mast cell development, migration and function, and in melanogenesis. KITLG/SCF binding can activate several signaling pathways. Promotes phosphorylation of PIK3R1, the regulatory subunit of phosphatidylinositol 3-kinase, and subsequent activation of the kinase AKT1. KITLG/SCF and KIT also transmit signals via GRB2 and activation of RAS, RAF1 and the MAP kinases MAPK1/ERK2 and/or MAPK3/ERK1. KITLG/SCF and KIT promote activation of STAT family members STAT1, STAT3 and STAT5. KITLG/SCF and KIT promote activation of PLCG1, leading to the production of the cellular signaling molecules diacylglycerol and inositol 1,4,5-trisphosphate. KITLG/SCF acts synergistically with other cytokines, probably interleukins.
+From NCBI Gene:
+From UniProt:
+Hyperpigmentation with or without hypopigmentation, familial progressive (FPHH): A disorder characterized by hyperpigmented patches in the skin, present in early infancy and increasing in size and number with age. Hyperpigmentation has variable intensity, and sometimes is associated with cafe-au-lait macules and larger hypopigmented ash-leaf macules. [MIM:145250]
+Deafness, congenital, unilateral or asymmetric (DCUA): An autosomal dominant form of non-syndromic, sensorineural deafness characterized by inability to hear affecting one ear. Some patients suffers from asymmetric, bilateral hearing loss. [MIM:616697]
+Cytogenetic Location: 12q21.32, which is the long (q) arm of chromosome 12 at position 21.32
+Molecular Location: base pairs 88,492,793 to 88,580,473 on chromosome 12 (Homo sapiens Annotation Release 108, GRCh38.p7) (NCBI)
+Published: February 14, 2017
